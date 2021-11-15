@@ -13,8 +13,12 @@
 .homeheader {
   width: 100%;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 13px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 13px;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .nav {
@@ -29,4 +33,18 @@
   padding-left: 10px;
 }
 
+.main {
+  background-color: #3CDBC0;
+  height: 100vh;
+}
   
+.tittle {
+  color: #FFFFFF;
+  font-size: 30px;
+  padding-top: 250px;
+  text-align: center;
+}
+
+span {
+  display: block;
+}
